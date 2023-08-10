@@ -8,4 +8,4 @@
 
 <a hredf="https://HigorVezaro.github.io/html-css/exercicios/d10g/android.html">executar o desafio 10</a>
 
-<a href="https://HigorVezaro.github.io/html-css/exercicios/d10g/android.html"> executar o desafio 10</a>
+<a href="https://HigorVezaro.github.io/html-css/exercicios/d10g/index.html"> executar o desafio 10</a>
