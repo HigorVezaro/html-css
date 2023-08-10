@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #BDF2E8 60%, #F2E8B6); /* cor da pagina por ser "image" linear-gradient faz um degrade */
+}
+
+main {
+    background-color: white ;
+    border-radius: 10px; /* dobrar a borda da janela escrita*/
+    width: 600px; /* limitar a janela (quadrado) a 600px */
+    
+    /* box-shadow faz uma borda na "janela" um sombreado o primeiro parametro é o quanto se move pra o lado, o segundo é pra baixo e o terceiro é quanto se espalha e o ultimo é a transparencia */
+    box-shadow: 5px 5px 15px #a60d7d8a;
+
+    padding: 10px; /* dar espaçamendo te 10px ao redor das "escritas" */
+    margin: auto; /* manter a "janela" sempre no centro da pagina */
+}
+
+h1 {
+    text-align: center;
+    color: #A60D7D ;
+    text-shadow: 1px 2px 2px #300424c9 ;
+    ;
+
+}
+
+h2 {
+    color: #F28379 ;
+
+}
+
+p {
+    text-align: justify;
+}
