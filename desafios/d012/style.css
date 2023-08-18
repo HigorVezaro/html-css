@@ -7,7 +7,84 @@
 
 /* font-family: 'Passion One', cursive; */
 /* font-family: 'Sriracha', cursive; */
-h1 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
 
     color: white;
     font-family: 'Passion One',  Helvetica, sans-serif ;
@@ -20,10 +97,12 @@ header > p {
 
 header {
     background-color: black;
-}
+} */
 
-main p {
+/* main p {
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 250px;
     font-size: 1em;
 }
 
@@ -35,34 +114,48 @@ main p {
 #container {
  position: relative;
 
-}
-#conteudo {
+} */
+/* #conteudo {
     height: 350px ;
     max-width:250px ;
     position: absolute;
     left: 30px ;
     top: 40px ;
-}
+} */
 
-div.imagem1 {
+/* div.imagem1 {
     height: 500px;
     max-width: 100%;
     background-image: url("./imagens/background001.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
-    box-shadow: 1px 1px 1px black;
-}
+    box-shadow: 1px 1px 10px 1px #0000009c;
+} */
 
-div.imagem2 {
+/* div.imagem2 {
     height: 500px;
     max-width: 100%;
     background-image: url("./imagens/background002.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
-    box-shadow: 1px 1px 1px black;
-}
+    box-shadow: 1px 1px 10px 1px #0000009c;
+} 
+
+    footer {
+        background-color: black;
+
+    }
+
+    footer > p {
+        color: white;
+        font-family:  Arial, Helvetica, sans-serif;
+    }
+
+
+
+*/
 
 
 
@@ -70,12 +163,3 @@ div.imagem2 {
 
 
 
-footer {
-    background-color: black;
-
-}
-
-footer > p {
-    color: white;
-    font-family:  Arial, Helvetica, sans-serif;
-}
