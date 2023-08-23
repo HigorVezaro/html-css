@@ -4,18 +4,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-
+:root {
+    --fonte1: verdana, tahoma, sans-serif; 
+    --fonte2: 'Passion One', cursive,  sans-serif ;
+    --fonte3:  'Sriracha', cursive, sans-serif ;
+}
 /* font-family: 'Passion One', cursive; fonte do título */
 /* font-family: 'Sriracha', cursive;  fonte do corpo */
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: rgb(231, 231, 231);
+    font-family: var(--fonte1);
 }
 
 header {
@@ -23,12 +29,15 @@ header {
     text-align: center;
     color: white;
     background-color: black;
+
 }
 
 header > h1 {
     font-family: 'Passion One', cursive;
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -37,10 +46,11 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: normal;
 }
 header a:hover, footer a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 section {
@@ -48,7 +58,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    
 }
 
 section.normal {
@@ -64,7 +76,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.329);
 }
 
@@ -73,5 +86,5 @@ footer {
     color: white;
     text-align: center;
     background-color: black;
-    padding: 5px;
+    padding: 4px;
 }
